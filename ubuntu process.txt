@@ -1,0 +1,48 @@
+in tricknology utube channel:
+----------------------------
+How To Install Ubuntu in Windows 11 Using Subsystem For Linux
+
+power shell -->run as adminstrator
+
+
+Enable WSL 1:
+
+paste 1:    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+------->
+
+
+
+Enable WSL 2:
+
+paste 2:   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+------->
+
+Set WSL 2 as the default WSL environment:
+
+after restart:
+--------------
+
+wsl.exe --set-default-version 2
+
+
+
+after this in microsoft store:
+
+download ubuntu for linux latest version
+
+
+after that i should have install linux kernal update package in the description we wil get the link to be install
+
+
+
+after done try to open ubuntu app in the windows
+
+
+we need to give username and password
+
+
+
+
+
+
+
